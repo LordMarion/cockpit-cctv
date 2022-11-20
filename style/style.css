@@ -1,0 +1,26 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    max-width:fit-content
+}
+
+.logo {
+    color: #354F52;
+    text-decoration: none;
+}
+
+.logo::after {
+    color: #575757;
+    content: "kokpit";
+    display: block;
+    font-size: 1rem;
+    margin-top: -11px;
+    text-align: end;
+    text-transform: uppercase;
+}
