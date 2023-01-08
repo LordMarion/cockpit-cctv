@@ -65,6 +65,7 @@ body {
     background: rgb(53,79,82);
     background: linear-gradient(45deg, rgba(53,79,82,0.4962359943977591) 0%, rgba(53,79,82,0.18531162464985995) 100%);
     padding: 2em 0;
+    height: 100vh;
 }
 
 .cctv-name-container {
@@ -78,5 +79,6 @@ body {
 
 .cctv-image-container iframe {
     border-radius: 15px;
+    height: 70vh;
     width: 100%;
 }
