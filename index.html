@@ -10,18 +10,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
     <link rel="stylesheet" href="./style/style.css">
     <title>Kokpit - jachim.pl</title>
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <a class="logo" href="#">jachim</a>
-        </div>
-        <div class="user-container">
-            <p class="user-name">marcin@jachim.pl</p>
-            <img class="user-avatar" src="./images/avatar.png" alt="User avatar">
+    <header class="header">
+        <div class="container flex-center">
+            <div class="logo-container">
+                <a class="logo" href="#">jachim</a>
+            </div>
+            <div class="user-container">
+                <p class="user-name">marcin@jachim.pl</p>
+                <img class="user-avatar" src="./images/avatar.png" alt="User avatar">
+            </div>
         </div>
     </header>
+    <main class="main">
+        <div class="container">
+            <div class="cctv-name-container flex-start">
+                <span class="check-cctv-icon material-symbols-rounded">expand_more</span>
+                <p class="cctv-name">kamerka-dwor-front</p>
+            </div>
+            <div class="cctv-image-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160223.74970353374!2d16.887486937530504!3d51.136258443102626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1673198297800!5m2!1spl!2spl" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

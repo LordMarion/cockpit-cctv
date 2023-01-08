@@ -8,11 +8,26 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header {
+.header {
+    padding: 1rem;
+    box-shadow: 0px -1px 27px -6px rgba(106, 106, 106, 1);
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex-start {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-center {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 }
 
 .logo-container {
@@ -44,4 +59,24 @@ header {
 .user-avatar {
     max-width: 100%;
     width: 1.5rem;
+}
+
+.main {
+    background: rgb(53,79,82);
+    background: linear-gradient(45deg, rgba(53,79,82,0.4962359943977591) 0%, rgba(53,79,82,0.18531162464985995) 100%);
+    padding: 2em 0;
+}
+
+.cctv-name-container {
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    gap: .3em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+.cctv-image-container iframe {
+    border-radius: 15px;
+    width: 100%;
 }
